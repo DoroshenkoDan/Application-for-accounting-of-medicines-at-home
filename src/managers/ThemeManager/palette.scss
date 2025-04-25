@@ -1,0 +1,28 @@
+@use 'colors' as *;
+@use 'variables' as *;
+
+// TODO: set new colors
+@mixin Light {
+  --primary-100: #{$primary-100};
+  --primary-90: #{$primary-90};
+  --primary-80: #{$primary-80};
+  --primary-70: #{$primary-70};
+  --primary-60: #{$primary-60};
+  --primary-50: #{$primary-50};
+  --bg-50: #a4b3b6;
+  --bg-40: #bbc6c8;
+  --bg-30: #d2d9da;
+  --bg-20: #e8eced;
+  --bg-10: #{$primary-5}; // #F4F5F6;
+  --text: #000;
+  --alt-text: #{$primary-100};
+  --disable-text: #898887;
+  --ant-text: #{$primary-5}; // #F4F5F6;
+  --warning: #{$warning};
+  --error: #{$error};
+  --info: #{$info};
+  --success: #{$success};
+}
+
+@mixin Dark {
+}

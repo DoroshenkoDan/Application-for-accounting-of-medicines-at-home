@@ -1,0 +1,30 @@
+@use 'react-responsive-tools' as *;
+
+.LoginLayout {
+  --login-header-height: 65px;
+  --login-padding-h: 15px;
+  --login-padding-v: 15px;
+
+  min-height: 100vh;
+  background: var(--bg-10);
+
+  @include for-lg {
+    --login-padding-h: 20px;
+    --login-padding-v: 20px;
+  }
+
+  @include for-lt {
+    --login-padding-h: 30px;
+    --login-padding-v: 30px;
+  }
+
+  @include for-ltm {
+    --login-header-height: 80px;
+    --login-padding-h: 5vw;
+    --login-padding-v: 10vh;
+  }
+
+  @include for-xl {
+    --login-padding-h: 8vw;
+  }
+}
