@@ -1,8 +1,8 @@
-import { TPillPriority } from 'api/RESTClient/types/TPills';
 import { AxiosRequestConfig } from 'axios';
 
 import BaseRESTClient from 'api/BaseRESTClient';
 import { TResponseError, TResponseSuccess } from 'api/RESTClient/types';
+import { TPillPriority } from 'api/RESTClient/types/TPills';
 
 /**
  * Оновлює частину даних.

@@ -1,8 +1,8 @@
-import { TPillPartialUpdate } from 'api/RESTClient/types/TPills';
 import { AxiosRequestConfig } from 'axios';
 
 import BaseRESTClient from 'api/BaseRESTClient';
 import { TResponseError, TResponseSuccess } from 'api/RESTClient/types';
+import { TPillPartialUpdate } from 'api/RESTClient/types/TPills';
 import { TPill } from 'types/TPill';
 
 /**
